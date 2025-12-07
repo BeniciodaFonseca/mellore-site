@@ -72,7 +72,7 @@ const About: React.FC = () => {
             {/* Card Dra. Dania */}
             <FadeIn delay={200} className="relative group h-[480px] rounded-2xl overflow-hidden">
               <img
-                src="https://i.imgur.com/z0TZtqm.jpeg"
+                src="/images/ceo/dra-dania-especialista-estetica-avancada-tatuape-sp.jpg"
                 alt="Dra. Dania El Hayek"
                 className="w-full h-full object-cover object-top transition-transform duration-1000 group-hover:scale-105"
               />
@@ -96,7 +96,7 @@ const About: React.FC = () => {
             {/* Card Regina */}
             <FadeIn delay={400} className="relative group h-[480px] rounded-2xl overflow-hidden mt-0 sm:mt-12 lg:mt-24">
               <img
-                src="https://i.imgur.com/EHwUyqP.jpeg"
+                src="/images/ceo/recepcao-premium-estetica-tatuape-regina-costa.jpg"
                 alt="Regina Costa"
                 className="w-full h-full object-cover object-top transition-transform duration-1000 group-hover:scale-105"
               />
