@@ -125,7 +125,7 @@ const Hero: React.FC<HeroProps> = ({ isLoaded }) => {
           <div className="max-w-7xl mx-auto">
             <div className="flex flex-nowrap items-center gap-1.5 text-white/50 text-[8px] sm:text-[9px] md:text-[10px] uppercase tracking-normal sm:tracking-wider md:tracking-widest font-medium whitespace-nowrap">
               <ShieldCheck size={12} className="text-brand-gold md:w-3.5 md:h-3.5 flex-shrink-0" />
-              <p className="leading-tight">Responsável Técnica: Dra. Dania El Hayek | CRO-94069</p>
+              <p className="leading-tight">Responsável Técnica: Dra. Dania El Hayek | CRO-SP 94069</p>
             </div>
           </div>
         </div>

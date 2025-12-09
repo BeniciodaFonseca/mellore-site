@@ -28,11 +28,11 @@ const About: React.FC = () => {
             </h2>
 
             <p className="text-lg text-stone-700 leading-relaxed font-light mb-6">
-              A Mellore nasceu de um sonho compartilhado entre duas mulheres fortes. De um lado, a excelência clínica da <strong>Dra. Dania El Hayek</strong>, especialista com 17 anos de experiência que ama cuidar e realçar belezas. Do outro, a expertise de <strong>Regina Costa</strong>, com 14 anos de experiência em Gestão de Qualidade e Estratégia Comercial, garantindo que a excelência técnica seja acompanhada de uma experiência acolhedora e impecável.
+              A Mellore nasceu de um sonho compartilhado entre duas mulheres fortes. De um lado, a excelência clínica da <strong>Dra. Dania El Hayek</strong>, especialista com 17 anos de experiência que ama cuidar e realçar belezas. Do outro, a expertise de <strong>Regina Costa</strong>, gestora de pessoas há quase duas décadas, garantindo que a excelência técnica seja acompanhada de uma experiência acolhedora e impecável.
             </p>
 
             <p className="text-stone-700 leading-relaxed mb-10 font-light">
-              Juntas, unimos a segurança técnica com a humanização do atendimento. Aqui não automatizamos o cuidado.
+              "Juntas, unimos a segurança técnica com a humanização do atendimento. Aqui não automatizamos o cuidado."
             </p>
 
             {/* Destaque para a História de Vida - Estilo Refinado */}
