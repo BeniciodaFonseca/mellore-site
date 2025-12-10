@@ -21,6 +21,14 @@ const protocols = [
     image: "/images/services/card/lipo-papada.png",
     ctaMessage: "Olá! Gostaria de agendar uma avaliação para Lipo de Papada."
   },
+  {
+    id: "bichectomia",
+    title: "Bichectomia",
+    painPoint: "Rosto com aspecto arredondado?",
+    description: "Remoção da gordura das bochechas para afinar o rosto e destacar as maçãs e o contorno facial.",
+    image: "/images/services/card/bichectomia.png",
+    ctaMessage: "Olá! Gostaria de saber mais sobre Bichectomia."
+  },
 
   {
     id: "bioestimulador",

@@ -50,7 +50,7 @@ const FAQ: React.FC = () => {
     },
     {
       question: "Os procedimentos de harmonização doem?",
-      answer: "O conforto do paciente é nossa prioridade absoluta. Utilizamos anestésicos tópicos potentes e, quando necessário, anestesia local (intraoral), garantindo que procedimentos como preenchimento labial ou rinomodelação sejam praticamente indoles."
+      answer: "O conforto do paciente é nossa prioridade absoluta. Utilizamos anestésicos tópicos potentes e, quando necessário, anestesia local, intraoral, garantindo que procedimentos como preenchimento labial ou rinomodelação sejam praticamente indolores."
     },
     {
       question: "Quanto tempo dura o efeito do Botox?",
