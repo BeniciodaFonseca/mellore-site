@@ -193,7 +193,7 @@ const Services: React.FC = () => {
   }, [isPaused]);
 
   return (
-    <section id={SectionId.SERVICES} className="py-16 md:py-28 bg-stone-50 overflow-hidden border-t border-brand-gold/10">
+    <section id={SectionId.SERVICES} data-gtm-section="services" className="py-16 md:py-28 bg-stone-50 overflow-hidden border-t border-brand-gold/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Header */}
@@ -274,6 +274,8 @@ const Services: React.FC = () => {
                   <div className="mt-auto pt-6 border-t border-stone-100">
                     <button
                       onClick={() => handleWhatsAppClick(`Olá! Quero saber mais sobre ${protocol.title}.`)}
+                      data-gtm-cta="service-booking"
+                      data-gtm-label={protocol.id}
                       className="w-full flex items-center justify-between text-brand-teal font-bold text-xs uppercase tracking-widest group-hover:text-brand-gold transition-colors"
                     >
                       Agendar Protocolo
@@ -294,6 +296,7 @@ const Services: React.FC = () => {
           </p>
           <button
             onClick={handleTalkToUsClick}
+            data-gtm-cta="services-fallback"
             className="text-brand-teal font-bold hover:text-brand-gold text-sm transition-colors border-b border-brand-teal hover:border-brand-gold pb-0.5"
           >
             Fale conosco

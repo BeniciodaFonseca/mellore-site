@@ -5,7 +5,7 @@ import { SectionId } from '../types';
 
 const Concept: React.FC = () => {
   return (
-    <section id={SectionId.CONCEPT} className="scroll-mt-14 md:scroll-mt-[72px] py-20 md:py-28 bg-white relative overflow-hidden">
+    <section id={SectionId.CONCEPT} data-gtm-section="concept" className="scroll-mt-14 md:scroll-mt-[72px] py-20 md:py-28 bg-white relative overflow-hidden">
       {/* Subtle Background Decoration */}
       <div className="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-brand-gold/40 to-transparent"></div>
       <div className="absolute -left-20 top-1/2 w-64 h-64 bg-brand-teal/5 rounded-full blur-3xl -z-10"></div>

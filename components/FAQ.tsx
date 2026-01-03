@@ -67,7 +67,7 @@ const FAQ: React.FC = () => {
   ];
 
   return (
-    <section id={SectionId.FAQ} className="py-20 bg-cream">
+    <section id={SectionId.FAQ} data-gtm-section="faq" className="py-20 bg-cream">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <FadeIn className="text-center mb-12">
@@ -99,6 +99,7 @@ const FAQ: React.FC = () => {
             href="https://wa.me/5511911540998?text=Ol%C3%A1%2C%20tenho%20uma%20d%C3%BAvida%20que%20n%C3%A3o%20est%C3%A1%20no%20site."
             target="_blank"
             rel="noopener noreferrer"
+            data-gtm-cta="faq-whatsapp"
             className="inline-flex items-center gap-2 text-brand-teal font-bold hover:text-brand-gold transition-colors"
           >
             Falar com a recepção no WhatsApp

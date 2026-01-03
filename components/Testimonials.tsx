@@ -23,7 +23,7 @@ const Testimonials: React.FC = () => {
   const googleReviewsUrl = "https://www.google.com/maps/place/Mellore+Est%C3%A9tica+Avan%C3%A7ada/@-23.5410929,-46.5736746,292m/data=!3m1!1e3!4m8!3m7!1s0x94ce5f4bf2149faf:0xc95b0ba49a1b8aeb!8m2!3d-23.5410929!4d-46.5725896!9m1!1b1!16s%2Fg%2F11yl_70f7k?hl=pt-BR&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D";
 
   return (
-    <section id={SectionId.TESTIMONIALS} className="py-24 bg-brand-teal overflow-hidden border-t border-b border-teal-800">
+    <section id={SectionId.TESTIMONIALS} data-gtm-section="testimonials" className="py-24 bg-brand-teal overflow-hidden border-t border-b border-teal-800">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Header Centralizado */}
@@ -72,6 +72,7 @@ const Testimonials: React.FC = () => {
             href={googleReviewsUrl}
             target="_blank"
             rel="noopener noreferrer"
+            data-gtm-cta="google-reviews"
             className="
               inline-flex items-center justify-center gap-2 
               w-full md:w-auto

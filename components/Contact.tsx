@@ -78,7 +78,7 @@ const Contact: React.FC<ContactProps> = ({ onFullScreenChange }) => {
   const routeUrl = "https://www.google.com/maps/dir/?api=1&origin=Metrô+Tatuapé&destination=Rua+Platina,+275,+Tatuapé,+São+Paulo";
 
   return (
-    <section id={SectionId.CONTACT} className="py-20 sm:py-24 bg-white">
+    <section id={SectionId.CONTACT} data-gtm-section="contact" className="py-20 sm:py-24 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <FadeIn className="text-center max-w-2xl mx-auto mb-16">
           <span className="text-sm font-bold text-brand-gold uppercase tracking-widest">Experiência Mellore</span>
@@ -96,6 +96,7 @@ const Contact: React.FC<ContactProps> = ({ onFullScreenChange }) => {
             {/* Video Conceito */}
             <div
               className="relative w-full aspect-[9/16] rounded-2xl overflow-hidden shadow-2xl group cursor-pointer transition-all duration-500 hover:shadow-3xl hover:-translate-y-1"
+              data-gtm-cta="video-play"
               onClick={() => {
                 setIsFullScreen(true);
                 setIsFullScreenMuted(true);
@@ -140,6 +141,7 @@ const Contact: React.FC<ContactProps> = ({ onFullScreenChange }) => {
               <div className="flex border-b border-gray-100">
                 <button
                   onClick={() => setActiveTab('visit')}
+                  data-gtm-cta="tab-visit"
                   className={`flex-1 py-6 text-sm md:text-base font-bold uppercase tracking-widest transition-all duration-300 flex items-center justify-center gap-2 ${activeTab === 'visit'
                     ? 'bg-white text-brand-teal border-b-2 border-brand-gold'
                     : 'bg-gray-50 text-gray-400 hover:bg-gray-100 hover:text-gray-600'
@@ -150,6 +152,7 @@ const Contact: React.FC<ContactProps> = ({ onFullScreenChange }) => {
                 </button>
                 <button
                   onClick={() => setActiveTab('message')}
+                  data-gtm-cta="tab-message"
                   className={`flex-1 py-6 text-sm md:text-base font-bold uppercase tracking-widest transition-all duration-300 flex items-center justify-center gap-2 ${activeTab === 'message'
                     ? 'bg-white text-brand-teal border-b-2 border-brand-gold'
                     : 'bg-gray-50 text-gray-400 hover:bg-gray-100 hover:text-gray-600'
@@ -188,6 +191,7 @@ const Contact: React.FC<ContactProps> = ({ onFullScreenChange }) => {
                             href={routeUrl}
                             target="_blank"
                             rel="noopener noreferrer"
+                            data-gtm-cta="maps-open"
                             className="flex items-center justify-center gap-2 w-full py-2.5 px-4 rounded-xl bg-brand-teal text-white font-bold hover:bg-teal-800 transition-colors shadow-sm text-sm"
                           >
                             <Navigation size={16} />
@@ -227,6 +231,7 @@ const Contact: React.FC<ContactProps> = ({ onFullScreenChange }) => {
                       href="https://www.instagram.com/melloreofc/"
                       target="_blank"
                       rel="noopener noreferrer"
+                      data-gtm-cta="instagram-open"
                       className="block bg-stone-50 p-6 rounded-2xl border border-stone-100 hover:border-brand-gold/30 transition-all group relative overflow-hidden hover:shadow-md"
                     >
                       <div className="flex items-center gap-4 relative z-10">
@@ -308,6 +313,7 @@ const Contact: React.FC<ContactProps> = ({ onFullScreenChange }) => {
 
                       <button
                         type="submit"
+                        data-gtm-cta="contact-submit"
                         className="w-full bg-brand-gold text-white font-bold py-4 rounded-xl shadow-lg hover:bg-[#b09055] transition-all transform hover:-translate-y-1 flex items-center justify-center gap-2 mt-2"
                       >
                         <Send size={18} />

@@ -16,7 +16,7 @@ const Environment: React.FC = () => {
   ];
 
   return (
-    <section id={SectionId.ENVIRONMENT} className="py-16 md:py-20 bg-white relative overflow-hidden">
+    <section id={SectionId.ENVIRONMENT} data-gtm-section="environment" className="py-16 md:py-20 bg-white relative overflow-hidden">
       {/* Decorative Background Elements - Subtle & Light */}
       <div className="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-brand-gold/30 to-transparent"></div>
 
@@ -47,6 +47,7 @@ const Environment: React.FC = () => {
               href="https://wa.me/5511911540998?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20visita%20e%20conhecer%20o%20espa%C3%A7o."
               target="_blank"
               rel="noopener noreferrer"
+              data-gtm-cta="environment-visit"
               className="inline-flex items-center gap-2 text-brand-gold font-bold tracking-wide text-sm hover:text-brand-teal transition-colors group"
             >
               <span className="border-b border-brand-gold pb-1 group-hover:border-brand-teal transition-colors">Agende sua visita e vivencie essa experiência</span>

@@ -6,7 +6,7 @@ import { CheckCircle2 } from 'lucide-react';
 
 const About: React.FC = () => {
   return (
-    <section id={SectionId.ABOUT} className="py-20 md:py-32 bg-cream overflow-hidden scroll-mt-20 relative">
+    <section id={SectionId.ABOUT} data-gtm-section="about" className="py-20 md:py-32 bg-cream overflow-hidden scroll-mt-20 relative">
       {/* Decorative Background Elements */}
       <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-brand-gold/5 to-transparent pointer-events-none"></div>
       <div className="absolute bottom-0 left-0 w-64 h-64 bg-brand-teal/5 rounded-full blur-3xl -z-10"></div>

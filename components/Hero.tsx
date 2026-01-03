@@ -44,6 +44,7 @@ const Hero: React.FC<HeroProps> = ({ isLoaded }) => {
   return (
     <section
       id={SectionId.HOME}
+      data-gtm-section="home"
       className="relative min-h-[100dvh] flex items-center justify-center overflow-hidden"
     >
       {/* Background Image */}
@@ -111,6 +112,7 @@ const Hero: React.FC<HeroProps> = ({ isLoaded }) => {
             <div className="pt-0 md:pt-2">
               <button
                 onClick={handleContact}
+                data-gtm-cta="hero-booking"
                 className="bg-[#997B40] hover:bg-[#856b38] text-white font-bold py-3 px-6 md:px-8 rounded-lg transition-all shadow-md hover:shadow-lg transform hover:-translate-y-0.5 hover:scale-105 active:scale-95 text-sm md:text-base"
               >
                 Agendar Avaliação
